@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cursos</title>
+</head>
+<body>
+
+<h1>Cursos</h1>
+<div id="dados"></div>
+
+<script>
+fetch("/api/cursos")
+  .then(res => res.json())
+  .then(data => {
+    const div = document.getElementById("dados");
+
+    data.forEach(c => {
+        const botoesHtml = Object.entries(c.botoes || {})
+            .map(([texto, link]) => link
+                ? `<a href="${link}">${texto}</a>`
+                : `<span>${texto}</span>`)
+            .join(" ");
+
+        div.innerHTML += `
+            <h3>${c.curso}</h3>
+            <p><strong>Modalidade:</strong> ${c.modalidade}</p>
+            <p><strong>Nível:</strong> ${c.nivel}</p>
+            <p><strong>Localização:</strong> ${c.localizacao}</p>
+            <p><strong>Idade:</strong> ${c.idade ?? "-"}</p>
+            <p><strong>Carga horária:</strong> ${c.carga_horaria ?? "-"}</p>
+            <p>${botoesHtml}</p>
+            <hr>
+        `;
+    });
+  });
+</script>
+
+</body>
+</html>

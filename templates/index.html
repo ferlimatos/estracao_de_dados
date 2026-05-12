@@ -6,41 +6,52 @@
 <body>
 
 <h1>Cursos</h1>
+
+<!-- Filtros de busca -->
+<section id="filtros">
+    <h2>Encontre seu curso</h2>
+    <form id="formBusca">
+        <input type="text" id="termo" placeholder="Digite o nome do curso...">
+
+        <select id="unidade">
+            <option value="">Todas as Unidades</option>
+            <!-- Você pode preencher estes valores manualmente ou via JS -->
+            <option value="José Luiz Bittencourt">José Luiz Bittencourt</option>
+            <option value="Luiz Rassi">Luiz Rassi</option>
+            <option value="Artes Basileu França">Artes Basileu França</option>
+        </select>
+
+        <button type="submit">Buscar</button>
+    </form>
+</section>
 <!-- A div onde os dados dos cursos serão exibidos -->
 <div id="dados"></div>
 
 <script>
 // Carrega os dados dos cursos e exibe na página
 fetch("/api/cursos")
-  .then(res => res.json()) // Converte a resposta para JSON
+  .then(res => res.json())
   .then(data => {
-    const div = document.getElementById("dados"); // Seleciona a div onde os dados serão exibidos
+    const div = document.getElementById("dados");
+    let htmlFinal = ""; // Variável para acumular o HTML
 
-    // Itera sobre cada curso e cria o HTML para exibir suas informações
     data.forEach(c => {
         const botoesHtml = Object.entries(c.botoes || {})
-            .map(([texto, link]) => link
-                ? `<a href="${link}">${texto}</a>`
-                : `<span>${texto}</span>`)
+            .map(([texto, link]) => `<a href="${link}" class="btn">${texto}</a>`)
             .join(" ");
 
-        // Adiciona as informações do curso à div.
-        // O operador ?? é usado para fornecer um valor padrão ("-") caso idade ou carga_horaria sejam null ou undefined.
-        // O HTML inclui o nome do curso, modalidade, nível, localização, idade, carga horária e os botões de ação.
-        // O uso de template literals (``) facilita a construção do HTML com as variáveis.
-        // O <hr> é adicionado para separar visualmente cada curso.
-        // O resultado final é uma lista de cursos formatada, onde cada curso tem suas informações claramente apresentadas e os botões de ação disponíveis para interação.
-        div.innerHTML += `
-            <h3>${c.curso}</h3>
-            <p><strong>Modalidade:</strong> ${c.modalidade}</p>
-            <p><strong>Nível:</strong> ${c.nivel}</p>
-            <p><strong>Localização:</strong> ${c.localizacao}</p>
-            <p><strong>Idade:</strong> ${c.idade ?? "-"}</p>
-            <p><strong>Carga horária:</strong> ${c.carga_horaria ?? "-"}</p>
-            <p>${botoesHtml}</p>
+        htmlFinal += `
+            <div class="curso-card">
+                <h3>${c.nome}</h3>
+                <p><strong>Unidade:</strong> ${c.unidade}</p>
+                <p><strong>Status:</strong> ${c.status}</p>
+                <div class="botoes">${botoesHtml}</div>
+            </div>
             <hr>
         `;
     });
+
+    div.innerHTML = htmlFinal; // Atualiza a tela uma única vez
   });
 </script>
 

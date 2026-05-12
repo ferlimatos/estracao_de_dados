@@ -43,20 +43,26 @@ class CursoScraper:
             if len(spans) > 1:
                 carga = spans[-1].get_text(strip=True)
 
-            botoes = {}
-            for btn in cards.find_all("a", class_="btn"):
-                botoes[btn.text.strip()] = btn.get("href")
+            botoes = {btn.text.strip(): btn.get("href") for btn in cards.find_all("a", class_="btn")}
+            status = "Aberto"
+            texto_botoes = " ".join(botoes.keys()).lower()
+            if "inscrições indisponíveis" in texto_botoes or "avise-me" in texto_botoes:
+                status = "Indisponível"
+            elif not botoes:
+                # Caso o curso não tenha botão nenhum, talvez seja melhor marcar como indisponível
+                status = "Indisponível"
 
             # curso_obj é criado como uma instância da classe 'Curso', utilizando os dados extraídos do card.
             curso_obj = Curso(
-                modalidade.text.strip() if modalidade else "",
-                nivel.text.strip(),
-                curso.text.strip(),
-                localizacao.text.strip() if localizacao else "",
-                idade,
-                carga,
-                botoes
-            )
+    nome=curso.text.strip() if curso else "Não informado",
+    categoria="Geral",
+    nivel=nivel.text.strip() if nivel else "",
+    modalidade=modalidade.text.strip() if modalidade else "",
+    unidade=localizacao.text.strip() if localizacao else "",
+    status=status,
+    carga_horaria=carga,
+    botoes=botoes
+)
 
             # O objeto 'curso_obj' é adicionado à lista 'cursos', que será retornada ao final do método.
             cursos.append(curso_obj)

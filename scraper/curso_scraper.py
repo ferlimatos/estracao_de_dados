@@ -1,5 +1,5 @@
-# scraper/curso_scraper.py
-
+# 'curso_scraper.py' é o arquivo responsável por extrair os dados dos cursos de uma página web.
+# O requests acessa o site da EFG, e o BeautifulSoup lê o HTML da página para encontrar os cards dos cursos.
 import requests
 from bs4 import BeautifulSoup
 from domain.curso import Curso
@@ -9,12 +9,17 @@ class CursoScraper:
         self.url = url
         self.headers = {"User-Agent": "Mozilla/5.0"}
 
+    # Método para coletar os dados dos cursos da página web. Ele faz uma requisição GET para a URL especificada, analisa o conteúdo HTML e extrai as informações relevantes para criar objetos do tipo 'Curso'.
     def coletar(self):
+        # realiza a requisição para a página e cria um objeto BeautifulSoup para analisar o HTML
         response = requests.get(self.url, headers=self.headers)
+        # O BeautifulSoup é usado para analisar o conteúdo HTML da resposta e facilitar a extração dos dados dos cursos.
         soup = BeautifulSoup(response.text, "html.parser")
 
+        # A variável 'cursos' é uma lista que armazenará os objetos 'Curso' criados a partir dos dados extraídos da página.
         cursos = []
 
+        # Loop para percorrer cada card de curso encontrado na página. Para cada card, ele extrai as informações de modalidade, nível, nome do curso, localização, idade mínima, carga horária e os links dos botões disponíveis.
         for cards in soup.select(".col-md-4"):
             modalidade = cards.select_one(".cci-modalidade")
 
@@ -42,6 +47,7 @@ class CursoScraper:
             for btn in cards.find_all("a", class_="btn"):
                 botoes[btn.text.strip()] = btn.get("href")
 
+            # curso_obj é criado como uma instância da classe 'Curso', utilizando os dados extraídos do card.
             curso_obj = Curso(
                 modalidade.text.strip() if modalidade else "",
                 nivel.text.strip(),
@@ -52,6 +58,8 @@ class CursoScraper:
                 botoes
             )
 
+            # O objeto 'curso_obj' é adicionado à lista 'cursos', que será retornada ao final do método.
             cursos.append(curso_obj)
 
+        # O método retorna uma lista de objetos 'Curso' com os dados coletados.
         return cursos

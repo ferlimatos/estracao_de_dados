@@ -16,7 +16,15 @@ def home():
 # Rota para obter a lista de cursos em formato JSON.
 @app.route("/api/cursos")
 def cursos():
-    return jsonify(service.listar_cursos())
+    cursos = service.listar_cursos()
+
+    return jsonify(cursos)
+
+@app.route("/api/atualizar-cursos")
+def cursos_atualizados():
+    service.atualizar_cursos()
+
+    return jsonify({"message": "Cursos atualizados com sucesso!"})
 
 if __name__ == "__main__":
     app.run(debug=True)

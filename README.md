@@ -6,6 +6,10 @@ Este projeto foi desenvolvido com o objetivo de automatizar a coleta de informa�
 
 A aplicação utiliza **Web Scraping** para acessar a página de cursos da EFG, extrair os dados automaticamente e disponibilizá-los através de uma API construída com Flask.
 
+Na primeira versão, os dados eram coletados no momento em que o usuário acessava a rota da API. Isso fazia com que a resposta demorasse alguns segundos, pois o sistema precisava acessar o site da EFG, ler o HTML e extrair os cursos antes de mostrar o resultado.
+
+Na nova versão, a coleta passa a acontecer antes, por meio de um script separado. Esse script salva os cursos em um arquivo JSON. Depois, o Flask apenas lê esse arquivo pronto e retorna os dados instantaneamente.
+
 ## Tecnologias utilizadas
 
 ### Python

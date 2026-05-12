@@ -1,0 +1,3014 @@
+[
+    {
+        "modalidade": "Presencial",
+        "nivel": "Técnico de nível médio",
+        "curso": "Agronegócio",
+        "localizacao": "Mineiros",
+        "idade": "+16",
+        "carga_horaria": "1200 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1519"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Assessoria de Imprensa",
+        "localizacao": "Goiânia",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1279"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Automação em Marketing e Vendas Online",
+        "localizacao": "Aparecida de Goiânia, Santo Antônio do Descoberto",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1211"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Técnico de nível médio",
+        "curso": "Ciência de Dados",
+        "localizacao": "Aparecida de Goiânia, Goiânia e mais 3 cidades disponívelis",
+        "idade": "+16",
+        "carga_horaria": "1000 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1228"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Criação e Gestão de Projetos",
+        "localizacao": "Goiânia",
+        "idade": "+16",
+        "carga_horaria": "",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1207"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Desenvolvedor Python: Nível Básico",
+        "localizacao": "Aparecida de Goiânia, Valparaíso de  Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1151"
+        }
+    },
+    {
+        "modalidade": "EAD, Presencial",
+        "nivel": "Técnico de nível médio",
+        "curso": "Desenvolvimento Web e Mobile",
+        "localizacao": "Aparecida de Goiânia, Goiânia e mais 3 cidades disponívelis",
+        "idade": "+16",
+        "carga_horaria": "1440 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1310"
+        }
+    },
+    {
+        "modalidade": "Online",
+        "nivel": "Capacitação",
+        "curso": "Direito do Consumidor",
+        "localizacao": "Todo o estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1281"
+        }
+    },
+    {
+        "modalidade": "Online",
+        "nivel": "Capacitação",
+        "curso": "Empreendedorismo",
+        "localizacao": "Todo o estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1219"
+        }
+    },
+    {
+        "modalidade": "EAD, Presencial",
+        "nivel": "Técnico de nível médio",
+        "curso": "Empresas Digitais",
+        "localizacao": "Aparecida de Goiânia, Goiânia e mais 2 cidades disponívelis",
+        "idade": "+16",
+        "carga_horaria": "1040 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1202"
+        }
+    },
+    {
+        "modalidade": "EAD, Presencial",
+        "nivel": "Técnico de nível médio",
+        "curso": "Empresas Digitais",
+        "localizacao": "Aparecida de Goiânia, Goiânia e mais 2 cidades disponívelis",
+        "idade": "+16",
+        "carga_horaria": "960 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1452"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Excel Básico",
+        "localizacao": "Goiânia, Mineiros e mais 2 cidades disponívelis e online para as demais cidades do estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1295"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Fotografia para Mídias Digitais",
+        "localizacao": "Aparecida de Goiânia, Goiânia e mais 1 cidade disponível e online para as demais cidades do estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1193"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Gestão de Tráfego Digital",
+        "localizacao": "Goiânia, Santo Antônio do Descoberto e online para as demais cidades do estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1225"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Gestão Financeira",
+        "localizacao": "Aparecida de Goiânia, Goiânia e mais 3 cidades disponívelis e online para as demais cidades do estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1296"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Gravação e Edição de Vídeos para Mídias Digi",
+        "localizacao": "Aparecida de Goiânia, Goiânia e mais 1 cidade disponível e online para as demais cidades do estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1194"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Inglês Instrumental",
+        "localizacao": "Aparecida de Goiânia, Goiânia e mais 3 cidades disponívelis e online para as demais cidades do estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1268"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Inteligência Emocional",
+        "localizacao": "Aparecida de Goiânia, Goiânia e mais 2 cidades disponívelis e online para as demais cidades do estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1283"
+        }
+    },
+    {
+        "modalidade": "Online",
+        "nivel": "Capacitação",
+        "curso": "Internet das Coisas",
+        "localizacao": "Todo o estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1456"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Liderança e Gestão de Equipes",
+        "localizacao": "Aparecida de Goiânia, Goiânia e mais 2 cidades disponívelis e online para as demais cidades do estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1215"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Lógica de Programação",
+        "localizacao": "Aparecida de Goiânia, Goiânia e mais 2 cidades disponívelis e online para as demais cidades do estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1149"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Logística Empresarial",
+        "localizacao": "Goiânia, Mineiros e mais 1 cidade disponível e online para as demais cidades do estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1285"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Marketing Digital",
+        "localizacao": "Goiânia",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1198"
+        }
+    },
+    {
+        "modalidade": "EAD, Presencial",
+        "nivel": "Técnico de nível médio",
+        "curso": "Marketing e Mídias Sociais",
+        "localizacao": "Aparecida de Goiânia, Goiânia e mais 2 cidades disponívelis",
+        "idade": "+16",
+        "carga_horaria": "960 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1451"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Modelagem 3D",
+        "localizacao": "Aparecida de Goiânia, Mineiros",
+        "idade": "+16",
+        "carga_horaria": "80 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1426"
+        }
+    },
+    {
+        "modalidade": "Online",
+        "nivel": "Capacitação",
+        "curso": "Negociação",
+        "localizacao": "Todo o estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1288"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Oratória",
+        "localizacao": "Aparecida de Goiânia, Goiânia e mais 3 cidades disponívelis e online para as demais cidades do estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1287"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pacote Office",
+        "localizacao": "Aparecida de Goiânia, Goiânia e mais 3 cidades disponívelis",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1298"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pesquisa de Mercado",
+        "localizacao": "Goiânia",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1201"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pilotagem de Drone (VANT)",
+        "localizacao": "Aparecida de Goiânia, Goiânia e mais 3 cidades disponívelis",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/723"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Planejamento de Marketing",
+        "localizacao": "Goiânia",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1200"
+        }
+    },
+    {
+        "modalidade": "Online",
+        "nivel": "Capacitação",
+        "curso": "Planejamento e Acompanhamento de Conteúdo Digital",
+        "localizacao": "Todo o estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1196"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Redação e português instrumental",
+        "localizacao": "Mineiros, Santo Antônio do Descoberto e mais 1 cidade disponível e online para as demais cidades do estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/340"
+        }
+    },
+    {
+        "modalidade": "Online",
+        "nivel": "Capacitação",
+        "curso": "Relações Interpessoais",
+        "localizacao": "Todo o estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1458"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Técnicas de Comunicação Oral e Escrita",
+        "localizacao": "Goiânia, Santo Antônio do Descoberto e mais 1 cidade disponível e online para as demais cidades do estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1220"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Técnicas de Vendas",
+        "localizacao": "Goiânia, Mineiros e mais 1 cidade disponível e online para as demais cidades do estado de Goiás",
+        "idade": "+16",
+        "carga_horaria": "40 horas",
+        "botoes": {
+            "Inscrições Disponíveis": null,
+            "INSCREVA-SE": "https://sgc.efg.org.br/inscricao/8/1222"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Acrobacias Aéreas I - Lira",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1490"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Acrobacias Aéreas I - Tecido Acrobático",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1492"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Acrobacias Aéreas I - Trapézio",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1491"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Acrobacias Aéreas IV",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1447"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Acrobacias de Solo I - Flexibilidade",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1494"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Acrobacias de Solo I - Parada de Mão",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1493"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Acrobacias de Solo IV",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1390"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Aquarela I",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1474"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Arte Contemporânea - Visualidades",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1430"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Arte e Cultura Popular",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1431"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Arte em Vidro (Fusing)",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1357"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Técnico de nivel médio",
+        "curso": "Artes circenses",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/691"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Técnico de nível médio",
+        "curso": "Artes Visuais - Produção Artística Desenho e Pi",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1072"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Artesão em Cerâmica",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1475"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Assistente de Marketing",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1344"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Assistente em Marketing",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1197"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Ateliê de Produção Criativa",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1432"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Ateliê de Produção Criativa",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1467"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Ateliê Voz e Piano",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1508"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Automação e Robótica",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1343"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Balé do Teatro Escola Basileu França Júnior - B",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1396"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Balé Fraldinha Basileu França - BFBF",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1402"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Balé Infantil Basileu França - BIBF",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1401"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Balé Juvenil Basileu França - BJBF",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1398"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Balet Grau I",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1499"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Balet Grau IV",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1512"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Ballet Baby Class",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1498"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Ballet Grau II",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1501"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Ballet Grau III",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1502"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Ballet Grau V",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1504"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Ballet Intermediário",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1505"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Ballet Intermediário I",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1025"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Ballet Preparatório I",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1500"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Ballet Preparatório II",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1503"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Banda Sinfônica Jovem de Goiás – BSJG",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/937"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Big Band Basileu França – BBBF",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/926"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Camerata de Cordas Friccionadas",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1413"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Camerata de Sopros",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1509"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Camerata de Violão",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/927"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Camerata de Violoncelo",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1414"
+        }
+    },
+    {
+        "modalidade": "Online",
+        "nivel": "Capacitação",
+        "curso": "Captação de Recursos de Editais de Fomento",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/674"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Cerâmica Decorativa Artesanal",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1351"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Cerâmica Decorativa Artesanal",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1468"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Ceramista",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1359"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Ceramista",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1477"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Cia de Dança Contemporânea Basileu França - CIA",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1397"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Cia Jovem do Teatro Escola Basileu França - CIABF",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1395"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Circo Avançado Adulto",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1384"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Circo Avançado Infanto",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1382"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Circo Avançado Juvenil",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1383"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Circo Iniciante Adulto",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1381"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Circo Iniciante Infanto",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1379"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Circo Iniciante Juvenil",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1380"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Colagem e Assemblagem",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1433"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Coletivo de Artes Visuais",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1377"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Competências Empreendedoras",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1218"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Consultoria em Agronegócio",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1428"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Corpo Circense",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1403"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Criação de Conteúdo Digital",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1192"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Criação e Edição Multimídia",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1160"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Superior de técnologia",
+        "curso": "Curso Superior de Tecnologia em Produção Cênica",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/671"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Dança - Nível 1 - Dança Oriental Árabe",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1520"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Dança - Nível 1 - Danças Urbanas",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1521"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Dança de Rua Basileu França - DRBF",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1400"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Dança de Rua Basileu França Juvenil - DRBFJ",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1399"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Dança de Rua Juvenil",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1032"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Dança Moderna e Contemporânea",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1497"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Dança Moderna e Contemporânea I",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1027"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Danças Urbanas I",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1030"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Danças Urbanas I",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1495"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Danças Urbanas II",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1031"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Danças Urbanas Infanto Juvenil",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1029"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Danças Urbanas ll",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1496"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Desenho 2 - Figura Humana",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1361"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Desenho Artístico",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1434"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Desenho Auxiliado por Computador",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1427"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Desenho de Figura Humana",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1435"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Desenvolvedor Python: Nível Intermediário",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1152"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Desenvolvimento Mobile",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1172"
+        }
+    },
+    {
+        "modalidade": "Online",
+        "nivel": "Qualificação profissional",
+        "curso": "Desenvolvimento Web Back-End",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1162"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Desenvolvimento Web Front-End",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1156"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Design e Prototipagem",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1459"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Design Thinking e Gestão da Criatividade",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1346"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Desktop GNU-Linux",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1450"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "E-commerce",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1178"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Empreendedorismo Criativo",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1345"
+        }
+    },
+    {
+        "modalidade": "Online",
+        "nivel": "Qualificação profissional",
+        "curso": "Empresas Digitais: Gestão do Negócio e Criação",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1340"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Estratégias de Design de Negócios",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1204"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Experiência do Usuário/Consumidor (UX)",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1187"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Formação Artística Avançada em Teatro",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/964"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Técnico de nivel médio",
+        "curso": "Formação artística em teatro",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/696"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Formação Artística Iniciante em Teatro",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/962"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Formação Artística Intermediária em Teatro",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/963"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Formação Inicial Artística em Artes Visuais I",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1363"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Formação Inicial Artística em Artes Visuais II",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1364"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Formação Inicial Artística em Artes Visuais III",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1365"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Fotografia de Produtos e Tratamento de Imagem Digi",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1179"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Fundamentos do  Agronegócio",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1336"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Fundamentos do Desenho",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1436"
+        }
+    },
+    {
+        "modalidade": "Online",
+        "nivel": "Capacitação",
+        "curso": "Gestão de Anúncios",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1184"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Gestão de Custos e Eficiência no Agronegócio",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1342"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Gestão do Negócio e Criação de Valor",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1213"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Gestão Estratégica no Agronegócio",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1332"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Gravura - Xilo I",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1437"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Gravura - Xilo l",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1470"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Grupo Vai...Idade",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/967"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Guitarra Rock e Blues",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/932"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Guitarra Rock e Blues",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1511"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "História da Arte",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1438"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Qualificação profissional",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1405"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Iniciação Coletiva ao Instrumento Musical",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1485"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Iniciação Coletiva ao Instrumento Musical",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1515"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Instrumento Musical",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1517"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Instrumento Musical - Iniciante",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1407"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Instrumento Musical - Iniciante",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1516"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Instrumento Musical - Nível 1 - Cordas Friccionad",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1304"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Instrumento Musical - Nível 1 - Flauta Doce",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1419"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Instrumento Musical - Nível 1 - Metais Heterogên",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1306"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Instrumento Musical - Nível 1 - Violão",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1300"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Instrumento Musical - Nível 2 - Cordas Friccionad",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1417"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Instrumento Musical - Nível 2 - Flauta Doce",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1418"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Instrumento Musical - Nível 2 - Violão",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1416"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Instrumento Musical - Nível 3 - Flauta Doce",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1454"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Instrumento Musical - Nível 3 - Violão",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1445"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Instrumento Musical - Nível Avançado",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1410"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Instrumento Musical - Nível Básico",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1408"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Instrumento Musical - Nível Iniciante - Flauta Do",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/643"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Instrumento Musical - Nível Intermediário",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1409"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Instrumento Musical – Nível 3 – Cordas Fricci",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1453"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Instrumento Musical Violão - Iniciante",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1406"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Inteligência Artificial",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1341"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Interpretação Teatral I",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/965"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Interpretação Teatral II",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/966"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Introdução à Programação de Computadores",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1455"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Jazz Combo",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1506"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Joias em Vidro (Fusing)",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1375"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Laboratório de Arte em Vidro (Fusing)",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1439"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Laboratório de Harmonia e Improvisação",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/933"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Laboratório de Pintura",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1440"
+        }
+    },
+    {
+        "modalidade": "Online",
+        "nivel": "Capacitação",
+        "curso": "Liderança e Gestão Estratégica de Pessoas",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1284"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Marketing  Aplicado ao  Agronegócio",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1338"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Marketing Digital",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/558"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Marketing Digital",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1223"
+        }
+    },
+    {
+        "modalidade": "EAD, Presencial",
+        "nivel": "Técnico de nível médio",
+        "curso": "Marketing e Mídias Sociais",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1177"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Matemática aplicada a Eletrônica",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1333"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Matemática Básica",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1266"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Mídias Sociais",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1182"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Móbile da Imaginação 1",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1133"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Móbile da Imaginação 2",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1134"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Móbile da Imaginação 3",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1135"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Móbile da Imaginação 4",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1136"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Modelagem em Argila",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1350"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Mosaico",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1366"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "NAH  - Corpo  Cênico",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1347"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Novelo das Artes 1",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1137"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Novelo das Artes 2",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1138"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Novelo das Artes 3",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1139"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Novelo das Artes 4",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1140"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Núcleo de Choro Basileu França (NCBF)",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1514"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Ópera Estúdio",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1513"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Orquestra Infantil Mozart",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1325"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Orquestra Infantil Mozart - OIM",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/936"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Orquestra Sinfônica Jovem de  Goiás –   OSJG",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1378"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Orquestra Sinfônica Juvenil Pedro Ludovico Teixei",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/938"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Performance Musical",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1487"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Pintura 3 - Aquarela",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1368"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pintura a Óleo II - Figura Humana",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1356"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pintura a Óleo II - Figura Humana",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1471"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pintura com Tinta a Óleo I",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1376"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Pintura com Tinta Acrílica - 2",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1481"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pintura com Tinta Acrílica - Mista",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1472"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pintura com Tinta Acrílica I",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1354"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pintura com Tinta Acrílica II",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1441"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pintura de Figura Humana",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1085"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Pintura em Cerâmica",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1483"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Pintura em Madeira",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1370"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Pintura em Madeira",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1484"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pintura em Madeira 3 - Latonagem",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1353"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pintura em Madeira 3 – Latonagem",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1465"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pintura em Madeira I - Caixas",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1349"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pintura em Madeira I - Caixas",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1473"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Pintura I - Óleo",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1371"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pintura Vitrificada e Técnicas de Esmaltação",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1352"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Pintura Vitrificada e Técnicas de Esmaltação",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1466"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Planejamento de Mídias Sociais",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1186"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Planejamento e Criação de Novos Negócios",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1203"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Planejamento Financeiro para Startup",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1339"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Português  Instrumental",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1337"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Prática Coletiva de Guitarra",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/939"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Prática Coletiva de Instrumento de Sopros",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1510"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Prática Coletiva de Sopros",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1411"
+        }
+    },
+    {
+        "modalidade": "Online",
+        "nivel": "Capacitação",
+        "curso": "Processo Criativo",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1289"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Programação de  Computadores",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1457"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Programação de Computadores",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1150"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Retrato",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1442"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Ritmos e Melodias do Choro",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/935"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "ROBÓTICA EDUCACIONAL PARA DOCENTES",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/343"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Segurança da Informação",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1429"
+        }
+    },
+    {
+        "modalidade": "Online",
+        "nivel": "Qualificação profissional",
+        "curso": "Sustentabilidade e Legislação Ambiental",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1460"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Teatro Iniciante - Nível Básico",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1415"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Teatro Iniciante - Nível Iniciante",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1301"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Teatro Iniciante - Nível Intermediário",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1486"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Teatro Musical",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1412"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Capacitação",
+        "curso": "Qualificação profissional",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1448"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "NAH",
+        "curso": "Técnicas Acrobáticas e Caracterização de Perso",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1391"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Técnico de nível médio",
+        "curso": "Técnico de Nível Médio em Artes Circenses",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1446"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Técnico de nível médio",
+        "curso": "Técnico de Nível Médio em Ballet Clássico",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1011"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Técnico de nível médio",
+        "curso": "Técnico de Nível Médio em Canto",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1518"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Técnico de nível médio",
+        "curso": "Técnico de Nível Médio em Dança Contemporânea",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1012"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Técnico de nível médio",
+        "curso": "Técnico de Nível Médio em Instrumento Musical",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/918"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Técnico de nível médio",
+        "curso": "Técnico em Artes Circenses",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1047"
+        }
+    },
+    {
+        "modalidade": "Presencial",
+        "nivel": "Técnico de nível médio",
+        "curso": "Técnico em Teatro",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/961"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Qualificação profissional",
+        "curso": "Tecnologias e Inovação para Start ups",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1208"
+        }
+    },
+    {
+        "modalidade": "Online",
+        "nivel": "Capacitação",
+        "curso": "Transformação Digital",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1335"
+        }
+    },
+    {
+        "modalidade": "Online, Presencial",
+        "nivel": "Capacitação",
+        "curso": "Transformação Digital e Prototipagem",
+        "localizacao": "",
+        "idade": null,
+        "carga_horaria": null,
+        "botoes": {
+            "Inscrições Indisponíveis": null,
+            "AVISE-ME": "https://sgc.efg.org.br/avise-me/1331"
+        }
+    }
+]

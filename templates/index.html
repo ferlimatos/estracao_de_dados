@@ -13,12 +13,29 @@
     <form id="formBusca">
         <input type="text" id="termo" placeholder="Digite o nome do curso...">
 
+        <select id="nivel">
+            <option value="">Todos os Níveis</option>
+            <!-- Você pode preencher estes valores manualmente ou via JS -->
+            <option value="Capacitação">Capacitação</option>
+            <option value="Qualificação profissional">Qualificação</option>
+            <option value="Técnico de nível médio">Técnico de nível médio</option>
+        </select>
+        </select>
+
         <select id="unidade">
             <option value="">Todas as Unidades</option>
             <!-- Você pode preencher estes valores manualmente ou via JS -->
             <option value="José Luiz Bittencourt">José Luiz Bittencourt</option>
             <option value="Luiz Rassi">Luiz Rassi</option>
             <option value="Artes Basileu França">Artes Basileu França</option>
+        </select>
+
+        <select id="modalidade">
+            <option value="">Todas as Modalidades</option>
+            <!-- Você pode preencher estes valores manualmente ou via JS -->
+            <option value="Presencial">Presencial</option>
+            <option value="Online">Online</option>
+            <option value="EAD">EAD</option>
         </select>
 
         <button type="submit">Buscar</button>

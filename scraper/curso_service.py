@@ -60,7 +60,7 @@ class CursoService:
 
         return [
             curso for curso in cursos
-            if unidade.lower() in curso["instituicao"]["unidade"].lower()
+            if unidade.lower() in curso["unidade"].lower()
         ]
 
     def buscar_por_area(self, area):

@@ -13,13 +13,22 @@ class CursoService:
 
         return cursos
 
-    def listar_cursos_abertos(self):
-        cursos = self.listar_cursos()
+    def listar_cursos_validos(self, filtros):
+        """Retorna apenas cursos com status 'Aberto' por padrão para o MVP."""
+        cursos = self.listar_cursos() # Lê o JSON
 
-        return [
-            curso for curso in cursos
-            if curso["status"].lower() == "aberto"
-        ]
+        # Filtra apenas os abertos primeiro
+        abertos = [c for c in cursos if c.get("status") == "Aberto"]
+
+        # Se houver outros filtros (unidade, nome), aplica sobre os abertos
+        resultado = abertos
+        for campo, valor in filtros.items():
+            if valor:
+                resultado = [
+                    c for c in resultado
+                    if valor.lower() in str(c.get(campo, "")).lower()
+                ]
+        return resultado
 
     def atualizar_cursos(self):
         cursos = self.scraper.coletar()

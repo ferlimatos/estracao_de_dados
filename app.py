@@ -15,20 +15,13 @@ def home():
     return render_template("index.html")
 
 # Rota para obter a lista de cursos em formato JSON.
-@app.route("/api/cursos")
-def cursos():
-    modalidade = request.args.get("modalidade")
-    nivel = request.args.get("nivel")
-    unidade = request.args.get("localizacao")
+@app.route('/api/cursos')
+def api_cursos():
+    nome = request.args.get('nome', '')
+    unidade = request.args.get('unidade', '')
 
-    cursos = service.listar_cursos()
-
-    if modalidade:
-        cursos = service.buscar_por_modalidade(modalidade)
-    if nivel:
-        cursos = service.buscar_por_nivel(nivel)
-    if unidade:
-        cursos = service.buscar_por_unidade(unidade)
+    # O service agora só retorna o que está aberto
+    cursos = service.listar_cursos_validos(filtros={'nome': nome, 'unidade': unidade})
 
     return jsonify(cursos)
 

@@ -10,100 +10,96 @@
     />
   </head>
   <body>
-    <div class="container">
-      <header class="main-header">
-        <div class="logo">GO<span>Cursos</span></div>
-        <nav>
-          <a href="#cursos">Cursos</a>
-          <a href="#instituicoes">Instituições</a>
-          <a href="#faq">Dúvidas</a>
-        </nav>
-      </header>
+    <header class="main-header">
+      <div class="logo">GO<span>Cursos</span></div>
+      <nav>
+        <a href="#cursos">Cursos</a>
+        <a href="#instituicoes">Instituições</a>
+        <a href="#faq">Dúvidas</a>
+      </nav>
+    </header>
 
-      <section class="hero">
-        <span class="badge-hero">Cursos gratuitos</span>
-        <h1>Qualificação gratuita em Goiás</h1>
-        <p>
-          Sua central única para encontrar cursos profissionalizantes das
-          melhores instituições goianas.
-        </p>
-        <!-- Filtros de busca -->
-        <section id="filtros">
-          <h2>Encontre seu curso</h2>
-          <form id="formBusca">
-            <input
-              type="text"
-              id="termo"
-              placeholder="Digite o nome do curso..."
-            />
+    <section class="hero">
+      <span class="badge-hero">Cursos gratuitos</span>
+      <h1>Qualificação gratuita em Goiás</h1>
+      <p>
+        Sua central única para encontrar cursos profissionalizantes das melhores
+        instituições goianas.
+      </p>
+      <!-- Filtros de busca -->
+      <section id="filtros">
+        <h2>Encontre seu curso</h2>
+        <form id="formBusca">
+          <input
+            type="text"
+            id="termo"
+            placeholder="Digite o nome do curso..."
+          />
 
-            <select id="nivel">
-              <option value="">Todos os Níveis</option>
-              <option value="Capacitação">Capacitação</option>
-              <option value="Qualificação profissional">Qualificação</option>
-              <option value="Técnico de nível médio">
-                Técnico de nível médio
-              </option>
-            </select>
+          <select id="nivel">
+            <option value="">Todos os Níveis</option>
+            <option value="Capacitação">Capacitação</option>
+            <option value="Qualificação profissional">Qualificação</option>
+            <option value="Técnico de nível médio">
+              Técnico de nível médio
+            </option>
+          </select>
 
-            <select id="unidade">
-              <option value="">Todas as Unidades</option>
-              <option value="José Luiz Bittencourt">
-                José Luiz Bittencourt
-              </option>
-              <option value="Luiz Rassi">Luiz Rassi</option>
-              <option value="Artes Basileu França">Artes Basileu França</option>
-            </select>
+          <select id="unidade">
+            <option value="">Todas as Unidades</option>
+            <option value="José Luiz Bittencourt">José Luiz Bittencourt</option>
+            <option value="Luiz Rassi">Luiz Rassi</option>
+            <option value="Artes Basileu França">Artes Basileu França</option>
+          </select>
 
-            <select id="modalidade">
-              <option value="">Todas as Modalidades</option>
-              <option value="Presencial">Presencial</option>
-              <option value="Online">Online</option>
-              <option value="EAD">EAD</option>
-            </select>
+          <select id="modalidade">
+            <option value="">Todas as Modalidades</option>
+            <option value="Presencial">Presencial</option>
+            <option value="Online">Online</option>
+            <option value="EAD">EAD</option>
+          </select>
 
-            <button type="submit">Buscar</button>
-          </form>
-        </section>
+          <button type="submit">Buscar</button>
+        </form>
       </section>
+    </section>
 
-      <!-- O Grid onde os cards serão injetados -->
-      <div id="dados" class="cursos-grid"></div>
+    <!-- O Grid onde os cards serão injetados -->
+    <div id="dados" class="cursos-grid"></div>
 
-      <section id="faq" class="container section-padding">
-        <div class="faq-grid">
-          <div class="faq-header">
-            <h2>Dúvidas Frequentes</h2>
-            <p>Entenda como funciona o nosso portal de agregação.</p>
-          </div>
-          <div class="faq-items">
-            <details>
-              <summary>De onde vêm os cursos listados?</summary>
-              <p>
-                Nosso portal utiliza tecnologia de automação para reunir dados
-                oficiais de portais como EFG, Governo de Goiás e instituições
-                parceiras, facilitando sua busca em um só lugar.
-              </p>
-            </details>
-            <details>
-              <summary>Como faço para realizar a matrícula?</summary>
-              <p>
-                Nós facilitamos o encontro da vaga. Ao clicar em "Fazer
-                inscrição", você será redirecionado para o sistema oficial da
-                instituição responsável pelo curso.
-              </p>
-            </details>
-            <details>
-              <summary>Os dados estão sempre atualizados?</summary>
-              <p>
-                Sim, nosso sistema realiza varreduras periódicas para garantir
-                que apenas cursos com inscrições abertas apareçam para você.
-              </p>
-            </details>
-          </div>
+    <section id="faq" class="container section-padding">
+      <div class="faq-grid">
+        <div class="faq-header">
+          <h2>Dúvidas Frequentes</h2>
+          <p>Entenda como funciona o nosso portal de agregação.</p>
         </div>
-      </section>
-    </div>
+        <div class="faq-items">
+          <details>
+            <summary>De onde vêm os cursos listados?</summary>
+            <p>
+              Nosso portal utiliza tecnologia de automação para reunir dados
+              oficiais de portais como EFG, Governo de Goiás e instituições
+              parceiras, facilitando sua busca em um só lugar.
+            </p>
+          </details>
+          <details>
+            <summary>Como faço para realizar a matrícula?</summary>
+            <p>
+              Nós facilitamos o encontro da vaga. Ao clicar em "Fazer
+              inscrição", você será redirecionado para o sistema oficial da
+              instituição responsável pelo curso.
+            </p>
+          </details>
+          <details>
+            <summary>Os dados estão sempre atualizados?</summary>
+            <p>
+              Sim, nosso sistema realiza varreduras periódicas para garantir que
+              apenas cursos com inscrições abertas apareçam para você.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
 
     <script>
       const divDados = document.getElementById('dados');

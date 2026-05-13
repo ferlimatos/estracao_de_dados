@@ -15,24 +15,37 @@ class CursoService:
 
     def listar_cursos_validos(self, **filtros):
         """Retorna apenas cursos abertos com textos de botões tratados."""
-        cursos = self.listar_cursos() # Lê o JSON
+        cursos = self.listar_cursos()
 
-        # 1. Filtra apenas os abertos (Regra do MVP)
+        # 1. Filtra apenas os abertos
         resultado = [c for c in cursos if c.get("status") == "Aberto"]
 
-        # 2. Aplica filtros de busca (nome, unidade, etc)
+        # 2. Aplica filtros de busca dinâmicos
         for campo, valor in filtros.items():
             if valor:
-                # O campo no JSON é 'nome_curso', mas na API chamamos de 'termo'
-                chave = "nome_curso" if campo == "termo" else campo
+                # CORREÇÃO DE MAPEAMENTO:
+                # Se o JS manda 'termo', procuramos em 'nome' no JSON
+                if campo == "termo":
+                    chave = "nome"
+                else:
+                    # Se o JS manda 'unidade', 'nivel' ou 'modalidade',
+                    # usamos o nome do campo direto
+                    chave = campo
+
+                valor_str = str(valor).lower()
+
+                # Filtramos a lista baseada no campo atual
                 resultado = [
                     c for c in resultado
-                    if valor.lower() in str(c.get(chave, "")).lower()
+                    if valor_str in str(c.get(chave, "")).lower()
                 ]
 
-        # 3. Tratamento Final para o Frontend
+                # O print ajuda a conferir no terminal se a chave bate com o JSON
+                print(f"Filtrando campo JSON: {chave} | Valor buscado: {valor_str}")
+
+        # 3. Tratamento de UX Writing nos botões
         for curso in resultado:
-            curso["botoes"] = self._tratar_botoes_ux(curso.get("botoes"))
+            curso["botoes"] = self.tratar_botoes_ux(curso.get("botoes"))
 
         return resultado
 
@@ -71,7 +84,7 @@ class CursoService:
 
         return [
             curso for curso in cursos
-            if termo.lower() in curso["nome_curso"].lower()
+            if termo.lower() in curso["nome"].lower()
         ]
 
     def buscar_por_modalidade(self, modalidade):

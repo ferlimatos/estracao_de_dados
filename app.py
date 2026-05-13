@@ -1,9 +1,11 @@
 # 'app.py' é o arquivo principal da aplicação Flask. Ele é responsável por criar o servidor web, definir as rotas e integrar o serviço de cursos.
 from flask import Flask, jsonify, render_template, request
+from flask_cors import CORS
 from scraper.curso_service import CursoService
 
 # Criação da aplicação Flask
 app = Flask(__name__)
+CORS(app)
 app.json.sort_keys = False
 
 # Instanciação do serviço de cursos
@@ -18,10 +20,12 @@ def home():
 @app.route('/api/cursos')
 def api_cursos():
     nome = request.args.get('nome', '')
+    nivel = request.args.get('nivel', '')
     unidade = request.args.get('unidade', '')
+    modalidade = request.args.get('modalidade', '')
 
     # O service agora só retorna o que está aberto
-    cursos = service.listar_cursos_validos(filtros={'nome': nome, 'unidade': unidade})
+    cursos = service.listar_cursos_validos(termo=nome, unidade=unidade, nivel=nivel, modalidade=modalidade)
 
     return jsonify(cursos)
 

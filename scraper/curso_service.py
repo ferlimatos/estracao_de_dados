@@ -61,10 +61,8 @@ class CursoService:
             # Aplica o UX Writing
             if "inscrev" in texto_min or "inscrição" in texto_min:
                 novo_texto = "Fazer inscrição"
-            elif any(palavra in texto_min for palavra in ["detalhes", "saiba", "edital"]):
+            elif any(palavra in texto_min for palavra in ["detalhes", "saiba", "edital", "disponíveis"]):
                 novo_texto = "Ver detalhes"
-            else:
-                novo_texto = texto # Mantém o original caso não encaixe
 
             botoes_limpos[novo_texto] = link
         return botoes_limpos

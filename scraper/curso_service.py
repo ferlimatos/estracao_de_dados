@@ -13,22 +13,48 @@ class CursoService:
 
         return cursos
 
-    def listar_cursos_validos(self, filtros):
-        """Retorna apenas cursos com status 'Aberto' por padrão para o MVP."""
+    def listar_cursos_validos(self, **filtros):
+        """Retorna apenas cursos abertos com textos de botões tratados."""
         cursos = self.listar_cursos() # Lê o JSON
 
-        # Filtra apenas os abertos primeiro
-        abertos = [c for c in cursos if c.get("status") == "Aberto"]
+        # 1. Filtra apenas os abertos (Regra do MVP)
+        resultado = [c for c in cursos if c.get("status") == "Aberto"]
 
-        # Se houver outros filtros (unidade, nome), aplica sobre os abertos
-        resultado = abertos
+        # 2. Aplica filtros de busca (nome, unidade, etc)
         for campo, valor in filtros.items():
             if valor:
+                # O campo no JSON é 'nome_curso', mas na API chamamos de 'termo'
+                chave = "nome_curso" if campo == "termo" else campo
                 resultado = [
                     c for c in resultado
-                    if valor.lower() in str(c.get(campo, "")).lower()
+                    if valor.lower() in str(c.get(chave, "")).lower()
                 ]
+
+        # 3. Tratamento Final para o Frontend
+        for curso in resultado:
+            curso["botoes"] = self._tratar_botoes_ux(curso.get("botoes"))
+
         return resultado
+
+    def tratar_botoes_ux(self, botoes_crus):
+        """Traduz os textos dos botões para padrões de UX Writing."""
+        botoes_limpos = {}
+        if not botoes_crus:
+            return botoes_limpos
+
+        for texto, link in botoes_crus.items():
+            texto_min = texto.lower()
+
+            # Aplica o UX Writing
+            if "inscrev" in texto_min or "inscrição" in texto_min:
+                novo_texto = "Fazer inscrição"
+            elif any(palavra in texto_min for palavra in ["detalhes", "saiba", "edital"]):
+                novo_texto = "Ver detalhes"
+            else:
+                novo_texto = texto # Mantém o original caso não encaixe
+
+            botoes_limpos[novo_texto] = link
+        return botoes_limpos
 
     def atualizar_cursos(self):
         cursos = self.scraper.coletar()

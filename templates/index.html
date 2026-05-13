@@ -1,76 +1,188 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Cursos</title>
-</head>
-<body>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cursos EFG</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <div class="logo">GO<span>Cursos</span></div>
+        <nav>
+          <a href="#cursos">Cursos</a>
+          <a href="#instituicoes">Instituições</a>
+          <a href="#faq">Dúvidas</a>
+        </nav>
+      </header>
 
-<h1>Cursos</h1>
+      <section class="hero">
+        <span class="badge-hero">Cursos gratuitos</span>
+        <h1>Qualificação gratuita em Goiás</h1>
+        <p>
+          Sua central única para encontrar cursos profissionalizantes das
+          melhores instituições goianas.
+        </p>
+        <!-- Filtros de busca -->
+        <section id="filtros">
+          <h2>Encontre seu curso</h2>
+          <form id="formBusca">
+            <input
+              type="text"
+              id="termo"
+              placeholder="Digite o nome do curso..."
+            />
 
-<!-- Filtros de busca -->
-<section id="filtros">
-    <h2>Encontre seu curso</h2>
-    <form id="formBusca">
-        <input type="text" id="termo" placeholder="Digite o nome do curso...">
+            <select id="nivel">
+              <option value="">Todos os Níveis</option>
+              <option value="Capacitação">Capacitação</option>
+              <option value="Qualificação profissional">Qualificação</option>
+              <option value="Técnico de nível médio">
+                Técnico de nível médio
+              </option>
+            </select>
 
-        <select id="nivel">
-            <option value="">Todos os Níveis</option>
-            <!-- Você pode preencher estes valores manualmente ou via JS -->
-            <option value="Capacitação">Capacitação</option>
-            <option value="Qualificação profissional">Qualificação</option>
-            <option value="Técnico de nível médio">Técnico de nível médio</option>
-        </select>
-        </select>
+            <select id="unidade">
+              <option value="">Todas as Unidades</option>
+              <option value="José Luiz Bittencourt">
+                José Luiz Bittencourt
+              </option>
+              <option value="Luiz Rassi">Luiz Rassi</option>
+              <option value="Artes Basileu França">Artes Basileu França</option>
+            </select>
 
-        <select id="unidade">
-            <option value="">Todas as Unidades</option>
-            <!-- Você pode preencher estes valores manualmente ou via JS -->
-            <option value="José Luiz Bittencourt">José Luiz Bittencourt</option>
-            <option value="Luiz Rassi">Luiz Rassi</option>
-            <option value="Artes Basileu França">Artes Basileu França</option>
-        </select>
+            <select id="modalidade">
+              <option value="">Todas as Modalidades</option>
+              <option value="Presencial">Presencial</option>
+              <option value="Online">Online</option>
+              <option value="EAD">EAD</option>
+            </select>
 
-        <select id="modalidade">
-            <option value="">Todas as Modalidades</option>
-            <!-- Você pode preencher estes valores manualmente ou via JS -->
-            <option value="Presencial">Presencial</option>
-            <option value="Online">Online</option>
-            <option value="EAD">EAD</option>
-        </select>
+            <button type="submit">Buscar</button>
+          </form>
+        </section>
+      </section>
 
-        <button type="submit">Buscar</button>
-    </form>
-</section>
-<!-- A div onde os dados dos cursos serão exibidos -->
-<div id="dados"></div>
+      <!-- O Grid onde os cards serão injetados -->
+      <div id="dados" class="cursos-grid"></div>
 
-<script>
-// Carrega os dados dos cursos e exibe na página
-fetch("/api/cursos")
-  .then(res => res.json())
-  .then(data => {
-    const div = document.getElementById("dados");
-    let htmlFinal = ""; // Variável para acumular o HTML
+      <section id="faq" class="container section-padding">
+        <div class="faq-grid">
+          <div class="faq-header">
+            <h2>Dúvidas Frequentes</h2>
+            <p>Entenda como funciona o nosso portal de agregação.</p>
+          </div>
+          <div class="faq-items">
+            <details>
+              <summary>De onde vêm os cursos listados?</summary>
+              <p>
+                Nosso portal utiliza tecnologia de automação para reunir dados
+                oficiais de portais como EFG, Governo de Goiás e instituições
+                parceiras, facilitando sua busca em um só lugar.
+              </p>
+            </details>
+            <details>
+              <summary>Como faço para realizar a matrícula?</summary>
+              <p>
+                Nós facilitamos o encontro da vaga. Ao clicar em "Fazer
+                inscrição", você será redirecionado para o sistema oficial da
+                instituição responsável pelo curso.
+              </p>
+            </details>
+            <details>
+              <summary>Os dados estão sempre atualizados?</summary>
+              <p>
+                Sim, nosso sistema realiza varreduras periódicas para garantir
+                que apenas cursos com inscrições abertas apareçam para você.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </div>
 
-    data.forEach(c => {
-        const botoesHtml = Object.entries(c.botoes || {})
-            .map(([texto, link]) => `<a href="${link}" class="btn">${texto}</a>`)
-            .join(" ");
+    <script>
+      const divDados = document.getElementById('dados');
+      const formBusca = document.getElementById('formBusca');
 
-        htmlFinal += `
-            <div class="curso-card">
-                <h3>${c.nome}</h3>
-                <p><strong>Unidade:</strong> ${c.unidade}</p>
-                <p><strong>Status:</strong> ${c.status}</p>
-                <div class="botoes">${botoesHtml}</div>
-            </div>
-            <hr>
-        `;
-    });
+      /**
+       * Renderiza os cursos filtrados.
+       * A lógica de UX Writing agora vem pronta do Backend (Python).
+       */
+      function renderizarCursos(filtros = {}) {
+        divDados.innerHTML = '<p>Carregando cursos...</p>';
 
-    div.innerHTML = htmlFinal; // Atualiza a tela uma única vez
-  });
-</script>
+        const params = new URLSearchParams(filtros).toString();
 
-</body>
+        fetch(`/api/cursos?${params}`)
+          .then((res) => res.json())
+          .then((data) => {
+            const listaCursos = Array.isArray(data) ? data : [];
+
+            if (listaCursos.length === 0) {
+              divDados.innerHTML =
+                "<p class='empty-state'>Nenhum curso aberto encontrado para esta busca.</p>";
+              return;
+            }
+
+            const htmlFinal = listaCursos
+              .map((c) => {
+                // Como o Python já enviou os textos "Fazer inscrição" ou "Ver detalhes",
+                // nós apenas aplicamos a classe CSS para a hierarquia visual.
+                const botoesHtml = Object.entries(c.botoes || {})
+                  .map(([texto, link]) => {
+                    const classeUX =
+                      texto === 'Fazer inscrição'
+                        ? 'btn-inscricao'
+                        : 'btn-detalhes';
+                    return `<a href="${link}" class="${classeUX}">${texto}</a>`;
+                  })
+                  .join('');
+
+                return `
+                    <div class="curso-card">
+                        <div class="badges">
+                            <span class="badge">${c.modalidade}</span>
+                            <span class="badge">${c.nivel}</span>
+                        </div>
+                        <h3>${c.nome_curso || c.nome}</h3>
+                        <p class="unidade"><strong>Unidade:</strong> ${c.unidade}</p>
+                        <p><strong>Carga Horária:</strong> ${c.carga_horaria ?? 'N/A'}</p>
+
+                        <div class="acoes">
+                            ${botoesHtml}
+                        </div>
+                    </div>
+                `;
+              })
+              .join('');
+
+            divDados.innerHTML = htmlFinal;
+          })
+          .catch((err) => {
+            console.error('Erro ao carregar dados:', err);
+            divDados.innerHTML = '<p>Erro ao conectar com o servidor.</p>';
+          });
+      }
+
+      // Evento de busca
+      formBusca.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const filtros = {
+          termo: document.getElementById('termo').value,
+          unidade: document.getElementById('unidade').value,
+          nivel: document.getElementById('nivel').value,
+          modalidade: document.getElementById('modalidade').value,
+        };
+        renderizarCursos(filtros);
+      });
+
+      // Inicialização automática
+      renderizarCursos();
+    </script>
+  </body>
 </html>

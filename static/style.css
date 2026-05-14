@@ -35,9 +35,11 @@ body {
 
 /* Container padrão para seções que NÃO são full-width */
 .container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding-inline: 20px;
+    box-sizing: border-box;
 }
 
 /* --- Seções com Fundo Infinito (Full-Width) --- */
@@ -45,28 +47,32 @@ body {
 .main-header,
 #faq,
 .main-footer {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    margin-left: -50vw;
+    width: 100%;
+}
 
-    /* Centralização dinâmica: Metade da tela - Metade dos 1200px + 20px de respiro */
-    padding-left: calc(50vw - 600px + 20px);
-    padding-right: calc(50vw - 600px + 20px);
-
-    box-sizing: border-box;
+/* Conteúdo interno das seções full-width */
+.main-header .container,
+#faq .container,
+.main-footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* --- Header & Logo --- */
 .main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 100%;
     background-color: var(--secondary);
     border-bottom: 1px solid rgba(255,255,255,0.1);
-    z-index: 1000;
+}
+
+.main-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .logo {
